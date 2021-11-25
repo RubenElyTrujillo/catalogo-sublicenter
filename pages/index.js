@@ -1,7 +1,6 @@
 import * as React from "react";
 import Head from 'next/head'
 import Image from 'next/image'
-import Portada from '../public/Portada.png'
 import { recursiveCatalog } from '../lib/shopify'
 import {
   Chart,
@@ -31,14 +30,13 @@ function Home({products}) {
     });
   };
 
-  console.log(products)
   return (
     <>
       <Head>
         <title>Catalogo de SUBLICENTER || sublicenter.mx</title>
       </Head>
-      <nav class="navbar navbar-light bg-light">
-        <div class="container-fluid">
+      <nav className="navbar navbar-light bg-light">
+        <div className="container-fluid">
           <div className="navbar-brand">
             <button className="k-button" onClick={exportPDFWithMethod}>
               Exportar PDF
