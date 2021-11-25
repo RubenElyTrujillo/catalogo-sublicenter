@@ -8,7 +8,12 @@ function MyApp({ Component, pageProps }) {
     <>
       {/* Add the favicon */}
       <Head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="shortcut icon" href="/favicon.png" />
+        <meta name="description" content="Imprecion del catalogo de productos de sublicenter"/>
+        <meta name="keywords" content="catalogo, sublicenter, catalogo PDF, catalogo de productos de sublicenter, productos sublicenter"/>
+        <meta name="author" content="Sublicenter" />
       </Head>
       {/* Add the favicon */}
       {/* Note that the path doesn't include "public" */}
